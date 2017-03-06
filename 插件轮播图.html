@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="banner.css">
+</head>
+<body>
+<div id="banner" class="banner">
+    <div class="bannerInner"></div>
+    <ul class="bannerTip"></ul>
+    <a href="javascript:;" class="bannerLeft"></a>
+    <a href="javascript:;" class="bannerRight"></a>
+</div>
+<div id="banner1" class="banner">
+    <div class="bannerInner"></div>
+    <ul class="bannerTip"></ul>
+    <a href="javascript:;" class="bannerLeft"></a>
+    <a href="javascript:;" class="bannerRight"></a>
+</div>
+<script type="text/javascript" src="utils.js"></script>
+<script type="text/javascript" src="tween.js"></script>
+<script type="text/javascript" src="AutoBanner.js"></script>
+<script>
+    var banner=new AutoBanner("banner","banner.txt",3000);
+    var banner1=new AutoBanner("banner1","banner.txt",2000);
+</script>
+</body>
+</html>
